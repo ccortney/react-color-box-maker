@@ -1,13 +1,13 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import NewBoxForm from './NewBoxForm';
 
 // smoke test
 test('renders without crashing', () => {
-  render(<App />);
+  render(<NewBoxForm />);
 })
 
 // snapshot test
 test ('matches snapshot', () => {
-  const {asFragment} = render(<App/>);
+  const {asFragment} = render(<NewBoxForm/>);
   expect(asFragment()).toMatchSnapshot();
 })

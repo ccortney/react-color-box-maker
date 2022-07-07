@@ -1,0 +1,12 @@
+.Box {
+    display: inline-flex;
+    margin: 20px;
+}
+
+.Box-div {
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16), 0 3px 3px 0 rgba(0, 0, 0, 0.23);
+}
+
+.Box-button {
+    height: 20px;
+}
